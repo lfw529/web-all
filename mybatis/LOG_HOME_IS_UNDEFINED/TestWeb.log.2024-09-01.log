@@ -1,0 +1,99 @@
+2024-09-01 00:28:44.282 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 00:28:44.309 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+2024-09-01 00:28:45.237 [main] DEBUG car.insertCar - ==>  Preparing: insert into t_car (id, car_num, brand, guide_price, produce_time, car_type) values (null, '102', '丰田mirai', 40.30, '2014-10-05', '氢能源')
+2024-09-01 00:28:45.255 [main] DEBUG car.insertCar - ==> Parameters: 
+2024-09-01 00:28:45.257 [main] DEBUG car.insertCar - <==    Updates: 1
+2024-09-01 00:28:45.257 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@626abbd0]
+2024-09-01 00:31:51.215 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 00:31:51.230 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+2024-09-01 00:31:51.741 [main] DEBUG car.insertCar - ==>  Preparing: insert into t_car (id, car_num, brand, guide_price, produce_time, car_type) values (null, '102', '丰田mirai', 40.30, '2014-10-05', '氢能源')
+2024-09-01 00:31:51.759 [main] DEBUG car.insertCar - ==> Parameters: 
+2024-09-01 00:31:51.761 [main] DEBUG car.insertCar - <==    Updates: 1
+2024-09-01 00:31:51.761 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@169bb4dd]
+2024-09-01 00:32:13.227 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 00:32:13.241 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 00:32:13.241 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 00:32:13.241 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 00:32:13.241 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 00:32:13.289 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+2024-09-01 00:32:13.850 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 201719260.
+2024-09-01 00:32:13.852 [main] DEBUG car.insertCar - ==>  Preparing: insert into t_car (id, car_num, brand, guide_price, produce_time, car_type) values (null, '102', '丰田mirai', 40.30, '2014-10-05', '氢能源')
+2024-09-01 00:32:13.871 [main] DEBUG car.insertCar - ==> Parameters: 
+2024-09-01 00:32:13.873 [main] DEBUG car.insertCar - <==    Updates: 1
+2024-09-01 00:32:13.873 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@c05fddc]
+2024-09-01 00:32:13.873 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Returned connection 201719260 to pool.
+2024-09-01 09:18:55.490 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 09:18:55.509 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:18:55.509 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:18:55.509 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:18:55.509 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:18:55.510 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:18:55.510 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:18:55.510 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:18:55.510 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:22:28.746 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 09:22:28.767 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:22:28.767 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:22:28.767 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:22:28.767 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:22:28.767 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:22:28.767 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:22:28.767 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:22:28.767 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:25:00.506 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 09:25:00.524 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:25:00.524 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:25:00.524 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:25:00.524 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:25:00.524 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:25:00.524 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:25:00.524 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:25:00.525 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.840 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 09:29:09.858 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.858 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.859 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.859 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.859 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.859 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.859 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.859 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:29:09.925 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+2024-09-01 09:29:10.685 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 2032169857.
+2024-09-01 09:29:10.688 [main] DEBUG car3.selectCarByCarNum - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car where car_num = '100'
+2024-09-01 09:29:10.710 [main] DEBUG car3.selectCarByCarNum - ==> Parameters: 
+2024-09-01 09:29:10.751 [main] DEBUG car3.selectCarByCarNum - <==      Total: 1
+2024-09-01 09:29:10.751 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+2024-09-01 09:29:10.777 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 573958827.
+2024-09-01 09:29:10.777 [main] DEBUG car3.selectCarByCarNum - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car where car_num = '100'
+2024-09-01 09:29:10.777 [main] DEBUG car3.selectCarByCarNum - ==> Parameters: 
+2024-09-01 09:29:10.780 [main] DEBUG car3.selectCarByCarNum - <==      Total: 1
+2024-09-01 09:29:10.780 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+2024-09-01 09:29:10.798 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 549293029.
+2024-09-01 09:29:10.798 [main] DEBUG car3.selectCarByCarNum - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car where car_num = '100'
+2024-09-01 09:29:10.798 [main] DEBUG car3.selectCarByCarNum - ==> Parameters: 
+2024-09-01 09:29:10.800 [main] DEBUG car3.selectCarByCarNum - <==      Total: 1
+2024-09-01 09:29:10.800 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection
+2024-09-01 09:29:10.800 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Waiting as long as 20000 milliseconds for connection.
+2024-09-01 09:29:30.814 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Claimed overdue connection 2032169857.
+2024-09-01 09:29:30.814 [main] DEBUG car3.selectCarByCarNum - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car where car_num = '100'
+2024-09-01 09:29:30.814 [main] DEBUG car3.selectCarByCarNum - ==> Parameters: 
+2024-09-01 09:29:30.816 [main] DEBUG car3.selectCarByCarNum - <==      Total: 1
+2024-09-01 09:36:51.374 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 09:36:51.392 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:36:51.393 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:36:51.393 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:36:51.393 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:36:51.444 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 09:37:36.154 [main] DEBUG org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-09-01 09:37:36.175 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:37:36.176 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:37:36.176 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:37:36.176 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - PooledDataSource forcefully closed/removed all connections.
+2024-09-01 09:37:36.228 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Opening JDBC Connection
+2024-09-01 09:37:36.878 [main] DEBUG o.apache.ibatis.datasource.pooled.PooledDataSource - Created connection 2053996178.
+2024-09-01 09:37:36.878 [main] DEBUG org.apache.ibatis.transaction.jdbc.JdbcTransaction - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7a6d7e92]
+2024-09-01 09:37:36.882 [main] DEBUG car3.selectCarByCarNum - ==>  Preparing: select id, car_num carNum, brand, guide_price guidePrice, produce_time produceTime, car_type carType from t_car where car_num = '100'
+2024-09-01 09:37:36.904 [main] DEBUG car3.selectCarByCarNum - ==> Parameters: 
+2024-09-01 09:37:36.946 [main] DEBUG car3.selectCarByCarNum - <==      Total: 1
+2024-09-01 11:44:34.861 [main] DEBUG o.a.ibatis.transaction.managed.ManagedTransaction - Opening JDBC Connection

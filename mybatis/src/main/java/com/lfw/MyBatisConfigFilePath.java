@@ -16,7 +16,7 @@ public class MyBatisConfigFilePath {
         SqlSessionFactoryBuilder sqlSessionFactoryBuilder = new SqlSessionFactoryBuilder();
         // 2. 创建SqlSessionFactory对象
         // 这只是一个输入流，可以自己new。
-        InputStream is = new FileInputStream("E:/mybatis-config.xml");
+        InputStream is = new FileInputStream("E:/mybatis-config1.xml");
         SqlSessionFactory sqlSessionFactory = sqlSessionFactoryBuilder.build(is);
         // 3. 创建SqlSession对象
         SqlSession sqlSession = sqlSessionFactory.openSession();
