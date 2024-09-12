@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>godbatis</module>
+        <module>mybatis-web</module>
     </modules>
 
     <dependencies>
