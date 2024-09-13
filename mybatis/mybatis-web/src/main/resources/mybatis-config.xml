@@ -20,5 +20,6 @@
     <mappers>
         <!--一定要注意这里的路径哦！！！-->
         <mapper resource="AccountMapper.xml"/>
+        <mapper resource="AccountMapper2.xml"/>
     </mappers>
 </configuration>

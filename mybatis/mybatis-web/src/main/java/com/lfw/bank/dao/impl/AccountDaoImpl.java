@@ -10,7 +10,9 @@ public class AccountDaoImpl implements AccountDao {
     public Account selectByActno(String actno) {
         SqlSession sqlSession = SqlSessionUtil.openSession();
         Account act = sqlSession.selectOne("selectByActno", actno);
-        sqlSession.close();
+
+        /* 注释掉
+        sqlSession.close();*/
         return act;
     }
 
@@ -18,8 +20,10 @@ public class AccountDaoImpl implements AccountDao {
     public int update(Account act) {
         SqlSession sqlSession = SqlSessionUtil.openSession();
         int count = sqlSession.update("update", act);
+
+        /* 注释掉
         sqlSession.commit();
-        sqlSession.close();
+        sqlSession.close();*/
         return count;
     }
 }
