@@ -1,9 +1,6 @@
 package com.lfw.bank.util;
 
-import javassist.CannotCompileException;
-import javassist.ClassPool;
-import javassist.CtClass;
-import javassist.CtMethod;
+import javassist.*;
 import org.apache.ibatis.session.SqlSession;
 
 import java.lang.reflect.Constructor;
@@ -22,8 +19,17 @@ public class GenerateDaoByJavassist {
      * @param daoInterface dao接口
      * @return dao接口代理对象
      */
-    public static Object getMapper(SqlSession sqlSession, Class daoInterface) {
+
+    public static Object getMapper(SqlSession sqlSession, Class<?> daoInterface) {
         ClassPool pool = ClassPool.getDefault();
+        // tomcat 和 本地 是两个环境的路径
+
+        // 让 本地编译器 读取 tomcat 类型加载器
+        pool.appendClassPath(new LoaderClassPath(Thread.currentThread().getContextClassLoader()));
+
+        // 将 本地类路径注册到 tomcat 服务器加载器中
+//        pool.insertClassPath(new ClassClassPath(Account.class));
+
         // 生成代理类
         CtClass ctClass = pool.makeClass(daoInterface.getPackage().getName() + ".impl." + daoInterface.getSimpleName() + "Impl");
         // 接口
@@ -36,6 +42,7 @@ public class GenerateDaoByJavassist {
             // 拼接方法的签名
             StringBuilder methodStr = new StringBuilder();
             String returnTypeName = method.getReturnType().getName();
+            methodStr.append("public "); // 接口一定是 public
             methodStr.append(returnTypeName);
             methodStr.append(" ");
             String methodName = method.getName();
@@ -43,9 +50,9 @@ public class GenerateDaoByJavassist {
             methodStr.append("(");
             Class<?>[] parameterTypes = method.getParameterTypes();
             for (int i = 0; i < parameterTypes.length; i++) {
-                methodStr.append(parameterTypes[i].getName());
-                methodStr.append(" arg");
-                methodStr.append(i);
+                Class<?> parameterType = parameterTypes[i];
+                methodStr.append(parameterType.getName() + " ");  //追加参数类型
+                methodStr.append("arg" + i);  //追加参数名
                 if (i != parameterTypes.length - 1) {
                     methodStr.append(",");
                 }
