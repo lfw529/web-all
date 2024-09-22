@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0"
+>
+
+    <servlet>
+        <servlet-name>bbsServlet</servlet-name>
+        <servlet-class>com.lfw.web.BbsServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>bbsServlet</servlet-name>
+        <url-pattern>/bbs/findAll</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>tomcat_war_exploded</param-name>
+        <param-value>classpath:applicationContext-*.xml</param-value>
+    </context-param>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+        <cookie-config>
+            <name>JESSIONID123</name>
+            <domain>www.lfw.com</domain>
+            <path>/</path>
+            <comment>Session Cookie</comment>
+            <http-only>true</http-only>
+            <secure>false</secure>
+            <max-age>3600</max-age>
+        </cookie-config>
+        <tracking-mode>COOKIE</tracking-mode>
+    </session-config>
+
+</web-app>

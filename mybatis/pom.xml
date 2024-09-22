@@ -11,6 +11,10 @@
     <modules>
         <module>godbatis</module>
         <module>mybatis-web</module>
+        <module>mybatis-antic</module>
+        <module>mybatis-param</module>
+        <module>mybatis-select</module>
+        <module>mybatis-dynamic-sql</module>
     </modules>
 
     <properties>

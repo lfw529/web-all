@@ -2,16 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="tomcat" />
         <module name="godbatis" />
+        <module name="mybatis-antic" />
+        <module name="tomcat9.0.x" />
+        <module name="mybatis-select" />
+        <module name="mybatis-param" />
+        <module name="mybatis-dynamic-sql" />
         <module name="mybatis-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="parse-xml-by-dom4j" target="1.8" />
+      <module name="tomcat-source" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
