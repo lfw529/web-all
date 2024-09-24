@@ -11,6 +11,7 @@
         <module name="godbatis" />
         <module name="mybatis-antic" />
         <module name="tomcat9.0.x" />
+        <module name="mybatis-advanced-mapping" />
         <module name="mybatis-select" />
         <module name="mybatis-param" />
         <module name="mybatis-dynamic-sql" />
