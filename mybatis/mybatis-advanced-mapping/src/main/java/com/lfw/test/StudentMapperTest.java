@@ -12,4 +12,28 @@ public class StudentMapperTest {
         Student student = mapper.selectBySid(1);
         System.out.println(student);
     }
+
+
+    @Test
+    public void testSelectBySid2() {
+        StudentMapper mapper = SqlSessionUtil.openSession().getMapper(StudentMapper.class);
+        Student student = mapper.selectBySid(1);
+        //System.out.println(student);
+        // 只获取学生姓名
+        String sname = student.getSname();
+        System.out.println("学生姓名：" + sname);
+    }
+
+    @Test
+    public void testSelectBySid3() {
+        StudentMapper mapper = SqlSessionUtil.openSession().getMapper(StudentMapper.class);
+        Student student = mapper.selectBySid(1);
+        //System.out.println(student);
+        // 只获取学生姓名
+        String sname = student.getSname();
+        System.out.println("学生姓名：" + sname);
+        // 到这里之后，想获取班级名字了
+        String cname = student.getClazz().getCname();
+        System.out.println("学生的班级名称：" + cname);
+    }
 }
