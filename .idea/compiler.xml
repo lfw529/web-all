@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tomcat" />
+        <module name="mybatis-annotation" />
         <module name="godbatis" />
         <module name="mybatis-antic" />
         <module name="tomcat9.0.x" />
@@ -15,6 +16,7 @@
         <module name="mybatis-select" />
         <module name="mybatis-param" />
         <module name="mybatis-dynamic-sql" />
+        <module name="mybatis-cache" />
         <module name="mybatis-web" />
       </profile>
     </annotationProcessing>

@@ -16,6 +16,8 @@
         <module>mybatis-select</module>
         <module>mybatis-dynamic-sql</module>
         <module>mybatis-advanced-mapping</module>
+        <module>mybatis-cache</module>
+        <module>mybatis-annotation</module>
     </modules>
 
     <properties>
