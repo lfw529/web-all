@@ -18,6 +18,8 @@
         <module>mybatis-advanced-mapping</module>
         <module>mybatis-cache</module>
         <module>mybatis-annotation</module>
+        <module>mybatis-generator</module>
+        <module>mybatis-page</module>
     </modules>
 
     <properties>

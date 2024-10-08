@@ -4,7 +4,7 @@
     <insert id="insertUser">
         insert into t_user(id,name,email,address) values(#{id},#{name},#{email},#{address})
     </insert>
-    <select id="selectUserById" resultType="com.lfw.pojo.User">
+    <select id="selectUserById" resultType="com.lfw.bean.User">
         select * from t_user where id = #{id}
     </select>
 </mapper>

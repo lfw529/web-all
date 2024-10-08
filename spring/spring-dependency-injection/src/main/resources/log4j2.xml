@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <loggers>
+        <!--
+            level指定日志级别，从低到高的优先级：
+                ALL < TRACE < DEBUG < INFO < WARN < ERROR < FATAL < OFF
+                1. ALL：开启所有的日志记录。
+                2. TRACE：最低级别，用于记录所有日志信息。
+                3. DEBUG：用于记录调试信息，便于开发人员进行调试，但不适用于生产环境。
+                4. INFO：用于记录生产环境下的信息，如启动信息、用户登录信息等。
+                5. WARN：用于记录警告信息，表示程序可能出现潜在问题。
+                6. ERROR：用于记录错误信息，表示程序已经出现错误，需要进行处理。
+                7. FATAL：最高级别，用于记录致命错误信息，表示程序已经无法继续执行，需要进行紧急处理。
+                8. OFF：关闭所有的日志记录。
+        -->
+        <root level="DEBUG">
+            <appender-ref ref="spring6log"/>
+        </root>
+    </loggers>
+
+    <appenders>
+        <!--输出日志信息到控制台-->
+        <console name="spring6log" target="SYSTEM_OUT">
+            <!--控制日志输出的格式-->
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss SSS} [%t] %-3level %logger{1024} - %msg%n"/>
+        </console>
+    </appenders>
+
+</configuration>
