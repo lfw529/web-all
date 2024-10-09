@@ -18,6 +18,7 @@
         <module name="spring-bean-initation" />
         <module name="mybatis-advanced-mapping" />
         <module name="spring-dependency-injection" />
+        <module name="spring-ioc-annotation" />
         <module name="mybatis-select" />
         <module name="mybatis-dynamic-sql" />
         <module name="mybatis-generator" />

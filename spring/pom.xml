@@ -15,6 +15,7 @@
         <module>spring-bean-initation</module>
         <module>spring-bean-lifecycle</module>
         <module>spring-circular-dependency</module>
+        <module>spring-ioc-annotation</module>
     </modules>
 
     <properties>
