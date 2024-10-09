@@ -12,6 +12,7 @@
         <module>spring-dependency-injection</module>
         <module>spring-scope</module>
         <module>simple-factory</module>
+        <module>spring-bean-initation</module>
     </modules>
 
     <properties>

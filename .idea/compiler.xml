@@ -14,6 +14,7 @@
         <module name="mybatis-annotation" />
         <module name="godbatis" />
         <module name="mybatis-antic" />
+        <module name="spring-bean-initation" />
         <module name="mybatis-advanced-mapping" />
         <module name="spring-dependency-injection" />
         <module name="mybatis-select" />
