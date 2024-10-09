@@ -13,6 +13,8 @@
         <module>spring-scope</module>
         <module>simple-factory</module>
         <module>spring-bean-initation</module>
+        <module>spring-bean-lifecycle</module>
+        <module>spring-circular-dependency</module>
     </modules>
 
     <properties>

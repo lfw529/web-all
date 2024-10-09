@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+         生命周期之10步
+    -->
+    <bean id="userBean2" class="com.lfw.demo2.bean.User" init-method="initBean" destroy-method="destroyBean">
+        <property name="name" value="zhangsan"/>
+    </bean>
+
+    <!--配置Bean后处理器。这个后处理器将作用于当前配置文件中所有的bean。-->
+    <bean class="com.lfw.demo2.bean.LogBeanPostProcessor"/>
+</beans>

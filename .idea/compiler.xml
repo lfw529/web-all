@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-page" />
         <module name="simple-factory" />
+        <module name="spring-bean-lifecycle" />
         <module name="tomcat" />
         <module name="spring-scope" />
         <module name="mybatis-annotation" />
@@ -21,6 +22,7 @@
         <module name="mybatis-dynamic-sql" />
         <module name="mybatis-generator" />
         <module name="tomcat9.0.x" />
+        <module name="spring-circular-dependency" />
         <module name="mybatis-param" />
         <module name="mybatis-cache" />
         <module name="mybatis-web" />

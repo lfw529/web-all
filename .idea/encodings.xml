@@ -25,6 +25,10 @@
     <file url="file://$PROJECT_DIR$/spring/simple-factory/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-bean-initation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-bean-initation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-bean-lifecycle/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-bean-lifecycle/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-circular-dependency/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-circular-dependency/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-dependency-injection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-dependency-injection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-scope/src/main/java" charset="UTF-8" />
