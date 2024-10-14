@@ -19,11 +19,13 @@
         <module name="mybatis-advanced-mapping" />
         <module name="spring-dependency-injection" />
         <module name="spring-ioc-annotation" />
+        <module name="dynamic-proxy-jdk" />
         <module name="mybatis-select" />
         <module name="mybatis-dynamic-sql" />
         <module name="mybatis-generator" />
         <module name="tomcat9.0.x" />
         <module name="spring-circular-dependency" />
+        <module name="static-proxy" />
         <module name="mybatis-param" />
         <module name="mybatis-cache" />
         <module name="mybatis-web" />
