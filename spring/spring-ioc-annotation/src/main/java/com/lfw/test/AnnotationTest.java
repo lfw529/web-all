@@ -4,8 +4,11 @@ import com.lfw.bean2.BankDao;
 import com.lfw.bean2.User;
 import com.lfw.bean2.Vip;
 import com.lfw.bean3.Order;
+import com.lfw.config.Spring6Configuration;
+import com.lfw.service.UserService;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotationTest {
@@ -125,6 +128,48 @@ public class AnnotationTest {
     public void testAutowired7() {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-injection10.xml");
         com.lfw.service7.UserService userService = applicationContext.getBean("userService", com.lfw.service7.UserService.class);
+        userService.save();
+    }
+
+    @Test
+    public void testAutowired8() {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-injection11.xml");
+        com.lfw.service8.UserService userService = applicationContext.getBean("userService", com.lfw.service8.UserService.class);
+        userService.save();
+    }
+
+    @Test
+    public void testAutowired9() {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-injection12.xml");
+        com.lfw.service9.UserService userService = applicationContext.getBean("userService", com.lfw.service9.UserService.class);
+        userService.save();
+    }
+
+    @Test
+    public void testAutowired10() {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-injection13.xml");
+        com.lfw.service10.UserService userService = applicationContext.getBean("userService", com.lfw.service10.UserService.class);
+        userService.save();
+    }
+
+    @Test
+    public void testAutowired11() {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-injection14.xml");
+        com.lfw.service11.UserService userService = applicationContext.getBean("userService", com.lfw.service11.UserService.class);
+        userService.save();
+    }
+
+    @Test
+    public void testAutowired12() {
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring-injection15.xml");
+        com.lfw.service12.UserService userService = applicationContext.getBean("userService", com.lfw.service12.UserService.class);
+        userService.save();
+    }
+
+    @Test
+    public void testNoXml() {
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Spring6Configuration.class);
+        UserService userService = applicationContext.getBean("userService", UserService.class);
         userService.save();
     }
 }
