@@ -18,6 +18,8 @@
         <module>spring-ioc-annotation</module>
         <module>static-proxy</module>
         <module>dynamic-proxy-jdk</module>
+        <module>dynamic-proxy-cglib</module>
+        <module>spring-sm</module>
     </modules>
 
     <properties>

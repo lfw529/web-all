@@ -16,6 +16,7 @@
         <module name="godbatis" />
         <module name="mybatis-antic" />
         <module name="spring-bean-initation" />
+        <module name="spring-sm" />
         <module name="mybatis-advanced-mapping" />
         <module name="spring-dependency-injection" />
         <module name="spring-ioc-annotation" />
@@ -26,6 +27,7 @@
         <module name="tomcat9.0.x" />
         <module name="spring-circular-dependency" />
         <module name="static-proxy" />
+        <module name="dynamic-proxy-cglib" />
         <module name="mybatis-param" />
         <module name="mybatis-cache" />
         <module name="mybatis-web" />
