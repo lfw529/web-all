@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="myspring-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring/myspring-test/myspring-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

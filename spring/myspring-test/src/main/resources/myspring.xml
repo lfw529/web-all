@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+
+    <bean id="userServiceBean" class="com.lfw.bean.UserService">
+        <property name="userDao" ref="userDaoBean"/>
+    </bean>
+
+    <bean id="userDaoBean" class="com.lfw.bean.UserDao"/>
+
+</beans>

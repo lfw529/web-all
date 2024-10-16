@@ -25,6 +25,7 @@
         <module>myspring</module>
         <module>myspring</module>
         <module>myspring-test</module>
+        <module>spring-jdbc</module>
     </modules>
 
     <properties>
