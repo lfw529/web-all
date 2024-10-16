@@ -25,6 +25,12 @@
     <file url="file://$PROJECT_DIR$/spring/dynamic-proxy-cglib/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/dynamic-proxy-jdk/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/dynamic-proxy-jdk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/myspring-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/myspring-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/myspring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/myspring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/review-reflect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/review-reflect/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/simple-factory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/simple-factory/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-bean-initation/src/main/java" charset="UTF-8" />
@@ -37,6 +43,8 @@
     <file url="file://$PROJECT_DIR$/spring/spring-dependency-injection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-ioc-annotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-ioc-annotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-junit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-junit/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-scope/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-scope/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-sm/src/main/java" charset="UTF-8" />

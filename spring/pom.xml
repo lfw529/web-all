@@ -20,6 +20,11 @@
         <module>dynamic-proxy-jdk</module>
         <module>dynamic-proxy-cglib</module>
         <module>spring-sm</module>
+        <module>spring-junit</module>
+        <module>review-reflect</module>
+        <module>myspring</module>
+        <module>myspring</module>
+        <module>myspring-test</module>
     </modules>
 
     <properties>
@@ -41,12 +46,12 @@
             <version>6.1.13</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.11.0</version>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.junit.jupiter</groupId>-->
+<!--            <artifactId>junit-jupiter-api</artifactId>-->
+<!--            <version>5.11.0</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
         <!--log4j2的依赖-->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
