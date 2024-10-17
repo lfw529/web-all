@@ -26,6 +26,8 @@
         <module>myspring</module>
         <module>myspring-test</module>
         <module>spring-jdbc</module>
+        <module>spring-aspectj-aop-anno</module>
+        <module>spring-aspectj-aop-xml</module>
     </modules>
 
     <properties>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-bean-lifecycle" />
+        <module name="spring-aspectj-aop-xml" />
         <module name="tomcat" />
         <module name="spring-scope" />
         <module name="mybatis-annotation" />
@@ -30,11 +31,13 @@
         <module name="spring-dependency-injection" />
         <module name="dynamic-proxy-jdk" />
         <module name="myspring-test" />
+        <module name="spring-jdbc" />
         <module name="spring-junit" />
         <module name="myspring" />
         <module name="review-reflect" />
         <module name="spring-circular-dependency" />
         <module name="dynamic-proxy-cglib" />
+        <module name="spring-aspectj-aop-anno" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
