@@ -28,6 +28,7 @@
         <module>spring-jdbc</module>
         <module>spring-aspectj-aop-anno</module>
         <module>spring-aspectj-aop-xml</module>
+        <module>spring-tx-bank</module>
     </modules>
 
     <properties>

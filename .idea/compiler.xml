@@ -30,6 +30,7 @@
         <module name="mybatis-advanced-mapping" />
         <module name="spring-dependency-injection" />
         <module name="dynamic-proxy-jdk" />
+        <module name="spring-tx-bank" />
         <module name="myspring-test" />
         <module name="spring-jdbc" />
         <module name="spring-junit" />
