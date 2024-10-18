@@ -18,12 +18,4 @@ public interface AccountDao {
      * @return
      */
     int update(Account act);
-
-    /**
-     * 保存账户信息
-     *
-     * @param act
-     * @return
-     */
-    int insert(Account act);
 }

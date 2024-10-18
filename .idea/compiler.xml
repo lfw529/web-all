@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-aop-realapp" />
         <module name="spring-bean-lifecycle" />
         <module name="spring-aspectj-aop-xml" />
         <module name="tomcat" />
@@ -18,6 +19,7 @@
         <module name="mybatis-select" />
         <module name="mybatis-dynamic-sql" />
         <module name="mybatis-generator" />
+        <module name="spring-tx-bank-xml" />
         <module name="tomcat9.0.x" />
         <module name="static-proxy" />
         <module name="mybatis-param" />

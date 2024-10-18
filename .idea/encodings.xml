@@ -33,6 +33,8 @@
     <file url="file://$PROJECT_DIR$/spring/review-reflect/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/simple-factory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/simple-factory/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-aop-realapp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-aop-realapp/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-aspectj-aop-anno/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-aspectj-aop-anno/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-aspectj-aop-xml/src/main/java" charset="UTF-8" />
@@ -55,6 +57,8 @@
     <file url="file://$PROJECT_DIR$/spring/spring-scope/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-sm/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-sm/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-tx-bank-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring/spring-tx-bank-xml/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-tx-bank/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/spring-tx-bank/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring/src/main/java" charset="UTF-8" />

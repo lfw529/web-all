@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 @Service("accountService")
-@Transactional
 public class AccountServiceImpl implements AccountService {
     @Resource(name = "accountDao")
     private AccountDao accountDao;
@@ -35,32 +34,5 @@ public class AccountServiceImpl implements AccountService {
         if (count != 2) {
             throw new RuntimeException("转账失败，请联系银行");
         }
-    }
-
-    // 第三步：如果执行业务流程过程中，没有异常。提交事务
-    // 第四步：如果执行业务流程过程中，有异常，回滚事务
-
-    // withdraw();
-
-    @Transactional(propagation = Propagation.REQUIRED)
-    public void withdraw() {
-    }
-
-    @Resource(name = "accountService2")
-    private AccountService accountService;
-
-    @Override
-    @Transactional(propagation = Propagation.REQUIRED)
-    public void save(Account act) {
-        // 这里调用 dao 的 insert 方法。
-        accountDao.insert(act);  // 保存act-003账户
-
-        Account act2 = new Account("act-004", 1000.0);
-        try {
-            accountService.save(act2);   //保存 act-004 账户
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        // 继续往后进项我当前1号事务自己的事
     }
 }
