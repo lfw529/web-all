@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/tomcat/pom.xml" />
         <option value="$PROJECT_DIR$/tomcat/tomcat-source/pom.xml" />
         <option value="$PROJECT_DIR$/spring/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

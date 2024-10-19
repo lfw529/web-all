@@ -27,6 +27,7 @@
         <module name="mybatis-web" />
         <module name="mybatis-page" />
         <module name="simple-factory" />
+        <module name="springmvc-001" />
         <module name="godbatis" />
         <module name="spring-sm" />
         <module name="mybatis-advanced-mapping" />
