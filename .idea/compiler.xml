@@ -26,7 +26,13 @@
         <module name="mybatis-cache" />
         <module name="mybatis-web" />
         <module name="mybatis-page" />
+        <module name="springmvc-007" />
+        <module name="springmvc-006" />
+        <module name="springmvc-005" />
         <module name="simple-factory" />
+        <module name="springmvc-004" />
+        <module name="springmvc-003" />
+        <module name="springmvc-002" />
         <module name="springmvc-001" />
         <module name="godbatis" />
         <module name="spring-sm" />
@@ -34,6 +40,7 @@
         <module name="spring-dependency-injection" />
         <module name="dynamic-proxy-jdk" />
         <module name="spring-tx-bank" />
+        <module name="springmvc-008" />
         <module name="myspring-test" />
         <module name="spring-jdbc" />
         <module name="spring-junit" />
@@ -46,6 +53,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="parse-xml-by-dom4j" target="1.8" />
+      <module name="springmvc-003 (1)" target="17" />
+      <module name="springmvc-003 (2)" target="17" />
+      <module name="springmvc-004 (1)" target="17" />
+      <module name="springmvc-004 (2)" target="17" />
       <module name="tomcat-source" target="1.5" />
     </bytecodeTargetLevel>
   </component>

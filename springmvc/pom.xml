@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>springmvc-001</module>
+        <module>springmvc-002</module>
+        <module>springmvc-003</module>
     </modules>
 
     <properties>
