@@ -5,8 +5,8 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.apache.tomcat</groupId>
-  <artifactId>tomcat9.0.x</artifactId>
-  <name>tomcat-9.0.x</name>
+  <artifactId>tomcat-source</artifactId>
+  <name>tomcat-source</name>
   <version>9.0.x</version>
 
   <dependencies>
