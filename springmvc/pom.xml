@@ -17,6 +17,9 @@
         <module>springmvc-006</module>
         <module>springmvc-007</module>
         <module>springmvc-008</module>
+        <module>springmvc-009</module>
+        <module>springmvc-010</module>
+        <module>springmvc-011</module>
         <module>usermgt</module>
     </modules>
 

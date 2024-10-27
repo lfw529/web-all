@@ -15,12 +15,14 @@
         <module name="mybatis-annotation" />
         <module name="mybatis-antic" />
         <module name="spring-bean-initation" />
+        <module name="springmvc-011" />
         <module name="spring-ioc-annotation" />
         <module name="mybatis-select" />
         <module name="mybatis-dynamic-sql" />
         <module name="mybatis-generator" />
         <module name="spring-tx-bank-xml" />
         <module name="usermgt" />
+        <module name="springmvc-010" />
         <module name="static-proxy" />
         <module name="mybatis-param" />
         <module name="mybatis-cache" />
@@ -39,6 +41,7 @@
         <module name="mybatis-advanced-mapping" />
         <module name="spring-dependency-injection" />
         <module name="dynamic-proxy-jdk" />
+        <module name="springmvc-009" />
         <module name="spring-tx-bank" />
         <module name="springmvc-008" />
         <module name="tomcat-source" />
@@ -58,6 +61,10 @@
       <module name="springmvc-003 (2)" target="17" />
       <module name="springmvc-004 (1)" target="17" />
       <module name="springmvc-004 (2)" target="17" />
+      <module name="springmvc-009 (1)" target="17" />
+      <module name="springmvc-009 (2)" target="17" />
+      <module name="springmvc-010 (1)" target="17" />
+      <module name="tomcat9.0.x" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
