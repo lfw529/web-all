@@ -20,7 +20,10 @@
         <module>springmvc-009</module>
         <module>springmvc-010</module>
         <module>springmvc-011</module>
+        <module>springmvc-012</module>
+        <module>springmvc-013</module>
         <module>usermgt</module>
+        <module>myspringmvc</module>
     </modules>
 
     <properties>

@@ -27,18 +27,18 @@
     </bean>
 
     <!--配置属于自己的异常处理器-->
-    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+    <!--<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
         <property name="exceptionMappings">
             <props>
-                <!--这里可以配置很多键值对，key是异常，要提供具体的异常类型，包括报名。-->
-                <!--以下的配置表示，只要发生异常，都跳转到tip视图-->
+                &lt;!&ndash;这里可以配置很多键值对，key是异常，要提供具体的异常类型，包括报名。&ndash;&gt;
+                &lt;!&ndash;以下的配置表示，只要发生异常，都跳转到tip视图&ndash;&gt;
                 <prop key="java.lang.Exception">tip</prop>
             </props>
         </property>
-        <!-- 以下配置的含义是：将当前发生的异常对象存储到request域当中。-->
-        <!--底层会执行这样的代码： request.setAttribute("yiChang", 异常对象)-->
+        &lt;!&ndash; 以下配置的含义是：将当前发生的异常对象存储到request域当中。&ndash;&gt;
+        &lt;!&ndash;底层会执行这样的代码： request.setAttribute("yiChang", 异常对象)&ndash;&gt;
         <property name="exceptionAttribute" value="yiChang"/>
-    </bean>
+    </bean>-->
 
 
 </beans>
