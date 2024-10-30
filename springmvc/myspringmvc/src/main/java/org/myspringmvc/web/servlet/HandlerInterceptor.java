@@ -8,7 +8,8 @@ import jakarta.servlet.http.HttpServletResponse;
  * Description: 拦截器接口
  */
 public interface HandlerInterceptor {
-    default boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+    default boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
+            throws Exception {
         return true;
     }
 

@@ -4,12 +4,12 @@ import java.util.Locale;
 
 /**
  * ClassName: ViewResolver
- * Description:解析逻辑视图名称，返回视图对象
+ * Description: 视图解析器接口
  */
 public interface ViewResolver {
+
     /**
-     * 解析逻辑视图名称，返回视图对象
-     *
+     * 视图解析，将逻辑视图名转换为物理视图名，并且返回视图对象。
      * @param viewName
      * @param locale
      * @return

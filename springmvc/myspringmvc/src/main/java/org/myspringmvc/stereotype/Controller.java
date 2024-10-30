@@ -7,9 +7,9 @@ import java.lang.annotation.Target;
 
 /**
  * ClassName: Controller
- * Description: 用来标注处理器，被标注的处理器，纳入IoC容器的管理。该注解只允许出现在类上，另外可以被反射机制读取。
+ * Description: 用来标注控制器，被标注的控制器纳入IoC容器的管理。
  */
-@Target(ElementType.TYPE)
-@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.TYPE) // 表示该注解只能标注类
+@Retention(RetentionPolicy.RUNTIME) // 表示该注解可以被反射机制读取
 public @interface Controller {
 }

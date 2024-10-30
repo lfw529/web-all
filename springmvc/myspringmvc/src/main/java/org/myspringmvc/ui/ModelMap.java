@@ -4,13 +4,20 @@ import java.util.LinkedHashMap;
 
 /**
  * ClassName: ModelMap
- * Description: 将数据存储到域中。
+ * Description:
  */
-public class ModelMap extends LinkedHashMap<String, Object> {
+public class ModelMap extends LinkedHashMap<String,Object> {
+
     public ModelMap() {
     }
 
-    public ModelMap addAttribute(String name, String value) {
+    /**
+     * 向域当中绑定数据
+     * @param name
+     * @param value
+     * @return
+     */
+    public ModelMap addAttribute(String name, Object value) {
         this.put(name, value);
         return this;
     }

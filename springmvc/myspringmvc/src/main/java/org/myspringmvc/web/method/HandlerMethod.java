@@ -8,21 +8,13 @@ import java.lang.reflect.Method;
  */
 public class HandlerMethod {
     /**
-     * 处理器对象
+     * 真正的处理器对象
      */
     private Object handler;
     /**
-     * 要执行的方法
+     * 处理器方法
      */
     private Method method;
-
-    public HandlerMethod() {
-    }
-
-    public HandlerMethod(Object handler, Method method) {
-        this.handler = handler;
-        this.method = method;
-    }
 
     public Object getHandler() {
         return handler;
@@ -37,6 +29,14 @@ public class HandlerMethod {
     }
 
     public void setMethod(Method method) {
+        this.method = method;
+    }
+
+    public HandlerMethod() {
+    }
+
+    public HandlerMethod(Object handler, Method method) {
+        this.handler = handler;
         this.method = method;
     }
 }

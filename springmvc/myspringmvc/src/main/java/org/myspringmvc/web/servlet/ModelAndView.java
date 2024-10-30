@@ -2,6 +2,10 @@ package org.myspringmvc.web.servlet;
 
 import org.myspringmvc.ui.ModelMap;
 
+/**
+ * ClassName: ModelAndView
+ * Description: 模型与视图对象。
+ */
 public class ModelAndView {
     private Object view;
     private ModelMap model;
@@ -22,13 +26,8 @@ public class ModelAndView {
         this.view = view;
     }
 
-    /**
-     * 该方法待实现
-     *
-     * @param viewName
-     */
-    public void setViewName(String viewName) {
-        // TODO
+    public void setViewName(String viewName){
+        setView(viewName);
     }
 
     public ModelMap getModel() {
