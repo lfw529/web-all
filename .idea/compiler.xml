@@ -19,6 +19,7 @@
         <module name="godbatis" />
         <module name="spring-sm" />
         <module name="dynamic-proxy-jdk" />
+        <module name="boot3-01-demo" />
         <module name="spring-jdbc" />
         <module name="spring-circular-dependency" />
         <module name="dynamic-proxy-cglib" />
