@@ -57,6 +57,7 @@
         <module name="myspring" />
         <module name="review-reflect" />
         <module name="spring-aspectj-aop-anno" />
+        <module name="boot3-02-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -72,6 +73,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot3-02-demo" options="" />
       <module name="springmvc-004" options="-parameters" />
       <module name="springmvc-007" options="-parameters" />
     </option>

@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>boot3-01-demo</module>
+        <module>boot3-02-demo</module>
     </modules>
 
     <properties>
