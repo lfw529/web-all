@@ -3,9 +3,23 @@ package com.lfw;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * 启动 Springboot 的核心主程序入口
+ */
 @SpringBootApplication
 public class MainApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MainApplication.class, args);
+        //java10： 局部变量类型的自动推断
+        var ioc = SpringApplication.run(MainApplication.class, args);
+
+        //1. 获取容器中所有组件的名字
+        String[] names = ioc.getBeanDefinitionNames();
+
+        //2. 挨个遍历
+        // dispatcherServlet、beanNameViewResolver、characterEncodingFilter、multipartResolver
+        // SpringBoot把以前配置的核心组件现在都给我们自动配置好了。
+        for (String name : names) {
+            System.out.println(name);
+        }
     }
 }
