@@ -1,10 +1,6 @@
 package com.lfw.boot.bean;
 
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-
-@Component
-public class Cat {
+public class Dog {
     private Long id;
     private String name;
 

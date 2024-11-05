@@ -1,5 +1,9 @@
 package com.lfw.boot;
 
+import com.alibaba.druid.FastsqlException;
+import com.lfw.boot.bean.Cat;
+import com.lfw.boot.bean.Dog;
+import com.lfw.boot.bean.User;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +11,34 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Boot302DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Boot302DemoApplication.class, args);
-    }
+        var ioc = SpringApplication.run(Boot302DemoApplication.class, args);
 
+        for (String name : ioc.getBeanDefinitionNames()) {
+            System.out.println(name);
+        }
+
+        System.out.println("-------------------------------------------------------");
+
+        String[] forType = ioc.getBeanNamesForType(FastsqlException.class);
+        for (String s : forType) {
+            System.out.println(s);
+        }
+
+        Object userHaha1 = ioc.getBean("userHaha");
+        Object userHaha2 = ioc.getBean("userHaha");
+        System.out.println(userHaha2 == userHaha1);   // false
+
+        System.out.println("-------------------------------------------------------");
+        for (String s : ioc.getBeanNamesForType(Cat.class)) {
+            System.out.println("cat: " + s);
+        }
+
+        for (String s : ioc.getBeanNamesForType(Dog.class)) {
+            System.out.println("dog: " + s);
+        }
+
+        for (String s : ioc.getBeanNamesForType(User.class)) {
+            System.out.println("user: " + s);
+        }
+    }
 }
