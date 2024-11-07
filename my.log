@@ -1,0 +1,35 @@
+2024-11-07 18:49:36.180  INFO 121600 --- [main] c.l.l.Boot303LoggingApplication          : Starting Boot303LoggingApplication using Java 17.0.12 with PID 121600 (E:\IdeaProjects\web-all\springboot\boot3-03-logging\target\classes started by 42193 in E:\IdeaProjects\web-all)
+2024-11-07 18:49:36.185  INFO 121600 --- [main] c.l.l.Boot303LoggingApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-11-07 18:49:36.509  INFO 121600 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2024-11-07 18:49:36.513  INFO 121600 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-07 18:49:36.513  INFO 121600 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-11-07 18:49:36.563  INFO 121600 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-07 18:49:36.564  INFO 121600 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 362 ms
+2024-11-07 18:49:36.707  INFO 121600 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2024-11-07 18:49:36.711  INFO 121600 --- [main] c.l.l.Boot303LoggingApplication          : Started Boot303LoggingApplication in 0.73 seconds (process running for 1.023)
+2024-11-07 18:49:37.267  INFO 130756 --- [main] c.l.l.Boot303LoggingApplication          : Starting Boot303LoggingApplication using Java 17.0.12 with PID 130756 (E:\IdeaProjects\web-all\springboot\boot3-03-logging\target\classes started by 42193 in E:\IdeaProjects\web-all)
+2024-11-07 18:49:37.270  INFO 130756 --- [main] c.l.l.Boot303LoggingApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-11-07 18:49:37.578  INFO 130756 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2024-11-07 18:49:37.582  INFO 130756 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2024-11-07 18:49:37.582  INFO 130756 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2024-11-07 18:49:37.622  INFO 130756 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2024-11-07 18:49:37.622  INFO 130756 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 334 ms
+2024-11-07 18:49:37.755  WARN 130756 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-11-07 18:49:37.756  INFO 130756 --- [main] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2024-11-07 18:49:37.761  INFO 130756 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-07 18:49:37.767 ERROR 130756 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

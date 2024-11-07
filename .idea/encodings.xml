@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/mybatis/mybatis-advanced-mapping/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/mybatis-advanced-mapping/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis/mybatis-annotation/src/main/java" charset="UTF-8" />
@@ -69,6 +69,8 @@
     <file url="file://$PROJECT_DIR$/springboot/boot3-01-demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot/boot3-02-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot/boot3-02-demo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot/boot3-03-logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot/boot3-03-logging/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springmvc/myspringmvc/src/main/java" charset="UTF-8" />
@@ -106,5 +108,6 @@
     <file url="file://$PROJECT_DIR$/springmvc/usermgt/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tomcat/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tomcat/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

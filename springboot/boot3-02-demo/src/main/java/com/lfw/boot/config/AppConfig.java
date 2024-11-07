@@ -1,8 +1,11 @@
 package com.lfw.boot.config;
 
+import com.lfw.boot.bean.Pig;
+import com.lfw.boot.bean.Sheep;
 import com.lfw.boot.bean.User;
 import org.springframework.boot.SpringBootConfiguration;
 import com.alibaba.druid.FastsqlException;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Import;
@@ -12,7 +15,7 @@ import org.springframework.context.annotation.Scope;
  * 1、开启Sheep组件的属性绑定
  * 2、默认会把这个组件自己放到容器中
  */
-//@EnableConfigurationProperties(Sheep.class) //导入第三方写好的组件进行属性绑定
+@EnableConfigurationProperties(Sheep.class) //导入第三方写好的组件进行属性绑定
 //SpringBoot默认只扫描自己主程序所在的包。如果导入第三方包，即使组件上标注了 @Component、@ConfigurationProperties 注解，也没用。因为组件都扫描不进来
 @SpringBootConfiguration //这是一个配置类，替代以前的配置文件。配置类本身也是容器中的组件
 //@Configuration     与 SpringBootConfiguration 等价
@@ -37,5 +40,11 @@ public class AppConfig {
     public FastsqlException fastsqlException() {
 
         return new FastsqlException("手动注入");
+    }
+
+    @Bean
+    @ConfigurationProperties(prefix = "pig")   // 注意这个注解内容项目中不能重复
+    public Pig pig() {
+        return new Pig(); //我们自己new新pig
     }
 }

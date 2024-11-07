@@ -22,6 +22,3 @@ public class Person {
     private List<Dog> dogs; //数组（里面是对象）
     private Map<String, Cat> cats; //表示Map
 }
-
-
-
