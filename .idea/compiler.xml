@@ -42,6 +42,7 @@
         <module name="springmvc-007" />
         <module name="springmvc-006" />
         <module name="springmvc-005" />
+        <module name="boot3-04-web" />
         <module name="simple-factory" />
         <module name="springmvc-004" />
         <module name="springmvc-003" />
@@ -62,6 +63,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot3-04-demo" target="17" />
       <module name="parse-xml-by-dom4j" target="1.8" />
       <module name="springmvc-003 (1)" target="17" />
       <module name="springmvc-003 (2)" target="17" />

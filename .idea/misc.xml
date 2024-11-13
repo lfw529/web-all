@@ -30,6 +30,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/mybatis/parse-xml-by-dom4j/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot/boot3-04-demo/pom.xml" />
       </set>
     </option>
   </component>
