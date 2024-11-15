@@ -1,6 +1,7 @@
 package com.lfw.web.handler;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @ControllerAdvice  // 这个类是集中处理所有 @Controller 发生的错误
