@@ -12,6 +12,7 @@
         <module name="mybatis-annotation" />
         <module name="mybatis-antic" />
         <module name="spring-bean-initation" />
+        <module name="boot3-06-features" />
         <module name="mybatis-dynamic-sql" />
         <module name="mybatis-generator" />
         <module name="boot3-03-logging" />
@@ -34,6 +35,7 @@
         <module name="spring-ioc-annotation" />
         <module name="mybatis-select" />
         <module name="spring-tx-bank-xml" />
+        <module name="boot3-05-ssm" />
         <module name="usermgt" />
         <module name="springmvc-010" />
         <module name="mybatis-cache" />
