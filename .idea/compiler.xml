@@ -38,6 +38,7 @@
         <module name="boot3-05-ssm" />
         <module name="usermgt" />
         <module name="springmvc-010" />
+        <module name="boot3-07-core" />
         <module name="mybatis-cache" />
         <module name="mybatis-web" />
         <module name="mybatis-page" />

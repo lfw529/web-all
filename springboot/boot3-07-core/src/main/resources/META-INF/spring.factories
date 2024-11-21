@@ -1,0 +1,5 @@
+org.springframework.boot.SpringApplicationRunListener=com.lfw.boot.core.listener.MyAppListener
+
+
+
+org.springframework.context.ApplicationListener=com.lfw.boot.core.listener.MyListener
