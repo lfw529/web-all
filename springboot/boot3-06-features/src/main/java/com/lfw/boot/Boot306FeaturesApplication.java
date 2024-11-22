@@ -6,6 +6,7 @@ import com.lfw.boot.features.bean.Pig;
 import com.lfw.boot.features.bean.Sheep;
 //import com.lfw.boot.starter.robot.RobotAutoConfiguration;
 //import com.lfw.boot.starter.robot.annotation.EnableRobot;
+import com.lfw.boot.starter.robot.annotation.EnableRobot;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
@@ -45,7 +46,7 @@ import org.springframework.context.annotation.Import;
  * 自定义starter所有组件包名：com.lfw.boot.starter.robot
  * 当前项目的主程序所在包：    com.lfw.boot.features
  */
-//@EnableRobot
+@EnableRobot
 @Slf4j
 @SpringBootApplication //主程序类
 public class Boot306FeaturesApplication {

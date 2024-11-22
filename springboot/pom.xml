@@ -16,6 +16,7 @@
         <module>boot3-05-ssm</module>
         <module>boot3-06-features</module>
         <module>boot3-07-core</module>
+        <module>boot3-08-robot-starter</module>
     </modules>
 
     <properties>

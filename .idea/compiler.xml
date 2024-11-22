@@ -18,6 +18,7 @@
         <module name="boot3-03-logging" />
         <module name="static-proxy" />
         <module name="mybatis-param" />
+        <module name="boot3-08-robot-starter" />
         <module name="godbatis" />
         <module name="spring-sm" />
         <module name="dynamic-proxy-jdk" />
