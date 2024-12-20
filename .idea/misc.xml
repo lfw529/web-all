@@ -25,6 +25,7 @@
         <option value="$PROJECT_DIR$/springmvc/springmvc-013/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/boot3-02-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/minio/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

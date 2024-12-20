@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="minio-demo" />
         <module name="spring-aspectj-aop-xml" />
         <module name="tomcat" />
         <module name="mybatis-annotation" />
